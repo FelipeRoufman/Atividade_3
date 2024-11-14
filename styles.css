@@ -1,0 +1,306 @@
+.bannerSite {
+    background-image: url('img/header.png'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%;
+}
+
+.navegacaoH {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #747DFF59;
+    flex-wrap: wrap; 
+    padding: 10px 20px;
+}
+
+.boaV {
+    
+    font-size: 40px;
+    margin: 0;
+    color: #FFFFFF;
+    margin-left: 10%;
+}
+
+.boaV h1{
+    font-family: 'Lobster', sans-serif;
+}
+
+.navegacaoH ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.navegacaoH li {
+    margin: 0 15px;
+}
+
+.navegacaoH li a {
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    padding: 8px 12px;
+    margin-right: 10%;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.navegacaoH li a:hover {
+    color: rgb(238, 150, 19);
+}
+
+
+.frase {
+    width: 100%; 
+    min-height: 50vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    background: #00000040;
+}
+
+.frase p {
+    font-size: 3vw; 
+    color: #ffffff;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 54px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-shadow: 2px 2px 8px #000000BF;
+}
+
+
+.pesquisa {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #747DFF59; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.pesquisa form {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 20px; 
+    width: 90%; 
+    max-width: 900px;
+    padding: 15px;
+    background-color: #ffffffc0; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pesquisa .procura,
+.pesquisa .dataDeIda,
+.pesquisa .dataDeVolta,
+.pesquisa .botao {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.botao{
+
+    margin-top: 15px;
+}
+
+.pesquisa label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.pesquisa input[type="text"],
+.pesquisa input[type="date"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%; 
+}
+
+.pesquisa button {
+    padding: 12px 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: rgb(238, 150, 19);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    align-self: flex-start; 
+}
+
+.pesquisa button:hover {
+    background-color: #d87f10;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto; 
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between; /* Para separar as colunas */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.fala {
+    width: 45%; /* Ajuste o valor conforme necessário */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Para criar 2 colunas, pode ser ajustado conforme necessário */
+    gap: 10px; /* Espaçamento entre as imagens */
+    width: 45%; /* Ajuste o valor conforme necessário */
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between; /* Para separar as colunas */
+    align-items: flex-start; /* Alinha os itens no topo */
+    flex-wrap: wrap; /* Adiciona quebra de linha se necessário */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.fala {
+    width: 45%; /* Ajuste o valor conforme necessário */
+    margin-right: 5%; /* Adiciona um pequeno espaçamento entre os itens */
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+hr {
+    margin: 15px 0;
+    margin-right: 20px;
+    border: 0;
+    border-top: 10px solid rgb(238, 150, 19);
+}
+
+.descricao {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(238, 150, 19);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #d87f10;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Para criar 2 colunas */
+    gap: 15px; /* Ajuste o espaçamento entre as imagens */
+    width: 50%; /* Ajuste o valor conforme necessário */
+    margin: 0 auto;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+}
+
+.footer-section {
+    flex: 1 1 30%; /* Três colunas com espaço para responsividade */
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ff9900;
+}
+
+.footer-section p, .footer-section li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ff9900;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
