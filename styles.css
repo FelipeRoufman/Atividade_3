@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
 .bannerSite {
     background-image: url('img/header.png'); 
     background-size: cover;
@@ -17,6 +15,7 @@
     background-color: #747DFF59;
     flex-wrap: wrap; 
     padding: 10px 20px;
+    font-family: "Lobster", sans-serif;
 }
 
 .boaV {
@@ -27,8 +26,8 @@
     margin-left: 10%;
 }
 
-h1{
-    font-family: "Lobster", sans-serif;
+.boaV h1{
+    font-family: 'Lobster', sans-serif;
 }
 
 .navegacaoH ul {
@@ -36,6 +35,7 @@ h1{
     display: flex;
     align-items: center;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .navegacaoH li {
@@ -170,7 +170,7 @@ h1{
     width: 100%;
     height: auto;
     border-radius: 8px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.774);
 }
 
 .sobre {
@@ -205,31 +205,25 @@ h1{
 }
 
 .fala {
-    width: 45%; 
-    margin-right: 5%; 
+    width: 45%; /* Ajuste o valor conforme necessário */
+    margin-right: 5%; /* Adiciona um pequeno espaçamento entre os itens */
 }
 
 .titulo {
     font-size: 24px;
+    font-weight: bold;
     color: #333;
-    font-family: "Lobster", sans-serif;
-    color: #747DFF;
-    letter-spacing: 2px;
-
 }
 
 hr {
-    margin: 15px 0;
     margin-right: 20px;
     border: 0;
-    border-top: 5px solid rgb(238, 150, 19); 
-    width: 50%; 
-    align-self: center; 
+    border-top: 10px solid rgb(238, 150, 19);
 }
 
 
 .descricao {
-    font-size: 16px;
+    font-size: 23px;
     color: #666;
     line-height: 1.6;
     margin-bottom: 20px;
@@ -253,9 +247,9 @@ button:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 15px; 
-    width: 50%; 
+    grid-template-columns: repeat(2, 1fr); /* Para criar 2 colunas */
+    gap: 15px; /* Ajuste o espaçamento entre as imagens */
+    width: 50%; /* Ajuste o valor conforme necessário */
     margin: 0 auto;
 }
 
@@ -278,7 +272,7 @@ button:hover {
 }
 
 .footer-section {
-    flex: 1 1 30%; 
+    flex: 1 1 30%; /* Três colunas com espaço para responsividade */
     min-width: 200px;
 }
 
@@ -382,4 +376,18 @@ button:hover {
     object-fit: cover; 
     border-radius: 10px; 
     margin-bottom: 15px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanho igual */
+    grid-template-rows: repeat(2, 100px);  /* Cria 2 linhas com altura de 100px */
+    gap: 10px; /* Espaço entre os itens da grid */
+    padding: 10px;
+}
+.grid-item2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
