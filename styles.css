@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .bannerSite {
     background-image: url('img/header.png'); 
     background-size: cover;
@@ -25,8 +27,8 @@
     margin-left: 10%;
 }
 
-.boaV h1{
-    font-family: 'Lobster', sans-serif;
+h1{
+    font-family: "Lobster", sans-serif;
 }
 
 .navegacaoH ul {
@@ -173,19 +175,19 @@
 
 .sobre {
     display: flex;
-    justify-content: space-between; /* Para separar as colunas */
-    align-items: flex-start; /* Alinha os itens no topo */
+    justify-content: space-between; 
+    align-items: flex-start; 
 }
 
 .fala {
-    width: 45%; /* Ajuste o valor conforme necessário */
+    width: 45%; 
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Para criar 2 colunas, pode ser ajustado conforme necessário */
-    gap: 10px; /* Espaçamento entre as imagens */
-    width: 45%; /* Ajuste o valor conforme necessário */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    width: 45%; 
 }
 
 .grid-item img {
@@ -195,30 +197,36 @@
 
 .sobre {
     display: flex;
-    justify-content: space-between; /* Para separar as colunas */
-    align-items: flex-start; /* Alinha os itens no topo */
-    flex-wrap: wrap; /* Adiciona quebra de linha se necessário */
+    justify-content: space-between; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
     padding: 20px;
     box-sizing: border-box;
 }
 
 .fala {
-    width: 45%; /* Ajuste o valor conforme necessário */
-    margin-right: 5%; /* Adiciona um pequeno espaçamento entre os itens */
+    width: 45%; 
+    margin-right: 5%; 
 }
 
 .titulo {
     font-size: 24px;
-    font-weight: bold;
     color: #333;
+    font-family: "Lobster", sans-serif;
+    color: #747DFF;
+    letter-spacing: 2px;
+
 }
 
 hr {
     margin: 15px 0;
     margin-right: 20px;
     border: 0;
-    border-top: 10px solid rgb(238, 150, 19);
+    border-top: 5px solid rgb(238, 150, 19); 
+    width: 50%; 
+    align-self: center; 
 }
+
 
 .descricao {
     font-size: 16px;
@@ -245,9 +253,9 @@ button:hover {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Para criar 2 colunas */
-    gap: 15px; /* Ajuste o espaçamento entre as imagens */
-    width: 50%; /* Ajuste o valor conforme necessário */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px; 
+    width: 50%; 
     margin: 0 auto;
 }
 
@@ -270,7 +278,7 @@ button:hover {
 }
 
 .footer-section {
-    flex: 1 1 30%; /* Três colunas com espaço para responsividade */
+    flex: 1 1 30%; 
     min-width: 200px;
 }
 
@@ -303,4 +311,75 @@ button:hover {
 
 .footer-section p {
     margin: 5px 0;
+}
+
+.foto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);  
+    gap: 20px; 
+    padding: 20px;
+}
+
+.coisas {
+    text-align: center; 
+    padding: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; 
+}
+
+.coisas img {
+    width: 100%; 
+    max-width: 150px; 
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+.coisas p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0; 
+}
+
+.coisas button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(238, 150, 19);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.coisas button:hover {
+    background-color: #d87f10;
+}
+
+.fundoImagem {
+    background: linear-gradient(65.68deg, #FFE7C2 -4.19%, #BDACFF 104.38%);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px;
+    text-align: center; 
+    min-height: 50vh; 
+}
+
+.centro {
+    margin: 0; 
+}
+
+.coisas img {
+    width: 100%; 
+    max-width: 2000px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover; 
+    border-radius: 10px; 
+    margin-bottom: 15px;
 }
