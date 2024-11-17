@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .bannerSite {
     background-image: url('img/header.png'); 
@@ -17,6 +17,7 @@
     background-color: #747DFF59;
     flex-wrap: wrap; 
     padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
 }
 
 .boaV {
@@ -36,6 +37,7 @@ h1{
     display: flex;
     align-items: center;
     margin: 0;
+    
 }
 
 .navegacaoH li {
@@ -93,6 +95,7 @@ h1{
     background-color: #747DFF59; 
     padding: 20px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .pesquisa form {
@@ -382,4 +385,19 @@ button:hover {
     object-fit: cover; 
     border-radius: 10px; 
     margin-bottom: 15px;
+}
+
+.coisas .nomes {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.coisas .nomes h3 {
+    margin: 0; 
+    font-size: 20px; 
+}
+
+h4{
+    color: #3C4852;
 }
